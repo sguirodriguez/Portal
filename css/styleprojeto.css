@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-family: Arial;
+    font-size: 14px;
+}
+.clear{
+    clear: both;
+}
+.container-head{
+    height: 30px;
+    background-color: rgb(43, 41, 41);
+}
+.menu{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+    border: solid 1px rgb(43, 41, 41);;
+}
+.menu-left{
+    width: 49%;
+    height: 30px;
+    margin: 0 0.5%;
+    float: left;
+}
+.menu-right{
+    width: 49%;
+    height: 30px;
+    margin: 0 0.5%;
+    float: right;
+    text-align: right;
+    margin-top: 1px;
+}
+.menu-left ul{
+    list-style: none;
+}
+.menu-left li{
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.menu-left li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.menu-left li .ativo {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+a{
+    width: 26px;
+    height: 26px;
+    border: 1 solid white; 
+}
+.menu-right a{
+    margin-right: 7px;
+    float: right;
+}
+.menu-right input{
+    height: 26px;
+    float: right;
+    margin-right: 5px;
+}
+.icon1{
+    margin-top: 3px;
+    background-image: url("../imagens/face.png");
+    background-size: 26px 22px;
+    background-repeat: no-repeat;
+}
+.icon2{
+    background-image: url("../imagens/tube.png");
+    background-size: 27px 29px;
+    background-repeat: no-repeat;
+}
+.icon3{
+    margin-top: 2px;
+    background-image: url("../imagens/gmail.png");
+    background-size: 27px 26px;
+    background-repeat: no-repeat;
+}
+.container-headmain{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(175, 171, 171);
+}
+.content-headmain{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    /*background-color: aqua;*/
+}
+.logo{
+    width: 40%;
+    float: left;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-image: url(../imagens/logo.jpg);
+    background-size: 150px 90px;
+    background-repeat: no-repeat;
+    /*background-color: rgb(186, 33, 206);*/
+}
+.banner{
+    width: 60%;
+    float: right;
+    height: 95px;
+}
