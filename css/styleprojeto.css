@@ -90,7 +90,6 @@ a{
 .container-headmain{
     width: 100%;
     height: 95px;
-    background-color: rgb(175, 171, 171);
 }
 .content-headmain{
     width: 100%;
@@ -101,7 +100,7 @@ a{
     /*background-color: aqua;*/
 }
 .logo{
-    width: 40%;
+    width: 38%;
     float: left;
     height: 85px;
     margin-left: 10px;
@@ -109,10 +108,149 @@ a{
     background-image: url(../imagens/logo.jpg);
     background-size: 150px 90px;
     background-repeat: no-repeat;
-    /*background-color: rgb(186, 33, 206);*/
 }
 .banner{
     width: 60%;
     float: right;
-    height: 95px;
+    margin-top: 4px;
+    height: 85px;
+    background-color:  rgb(216, 0, 43);
+}
+.texto{
+    position: relative;
+    font-size: 28px;
+    padding-left: 50px;
+    margin-top: 10px;
+    color:  rgb(216, 0, 43);
+}
+.texto2{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.container-menumain{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(216, 0, 43);
+}
+.menumain{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 35px;
+    background-color: rgb(216, 0, 43);
+}
+.menumain ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menumain li{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    color: white;
+    font-size: 18px;
+}
+.menumain li a{
+    text-decoration: none;
+    color: white;
+}
+.ativo{
+    color: blue;
+}
+.submenu{
+    width: 150px;
+    background-color: rgb(223, 35, 73);
+    position: absolute;
+    display: none;
+}
+.menumain li:hover .submenu{
+    display: block;
+}
+.submenuitem{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+.submenuitem:hover{
+    background-color: rgb(197, 134, 147);
+}
+.container-main{
+    padding-top: 10px;
+    width: 100%;
+}
+.ultimasnoticias{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    max-width: 1040px;
+    border: 0.3px solid black;
+    border-radius: 10px;
+}
+.noticiasleft{
+    float: left;
+    width: 20%;
+    height: 38px;
+    background-color: rgb(216, 0, 43) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 38px;
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+}
+.noticiasright{
+    float: right;
+    width: 79%;
+    height: 38px;
+    line-height: 38px;
+    text-align: LEFT;
+    padding-left: 10px;
+    word-wrap: break-word;
+}
+.noticiamain{
+    width: 100%;
+    height: 260px;
+    margin: 0 auto;
+    max-width: 1040px;
+    padding-top: 10px;
+}
+.noticia-mainleft{
+    width: 64.5%;
+    height: 250px;
+    float: left;
+}
+.noticia-mainright{
+    width: 34.5%;
+    height: 250px;
+    float: right;
+    border: 1px solid rgb(117, 117, 117,0.6);
+}
+.barra-noticias{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(196, 196, 196);
+}
+.titulo{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    padding-left: 7px;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(117, 117, 117,0.6);
+}
+.conteudo{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 7px;
+    font-size: 15px;
+    padding-top: 6px;
+    word-wrap: break-word;
+
+    border-bottom: 1px solid rgb(117, 117, 117,0.6);
 }
