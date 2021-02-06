@@ -1,3 +1,3 @@
-Criação de Portal de notícias
+Criação de Portal de notícias bem básico
 
-Testando e usando recursos do css
+Testando e usando recursos do css, estilizando e colocando em modo responsivo
